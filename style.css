@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    align-items: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(38, 171, 38, 0.757);
+    align-items: start;
+    justify-content: center;
+    height: 15vh;
+    width: auto;
+    padding-top: 20px;
+    
+}
+.input-contai{
+    height: 100px;
+    display: flex;
+    align-items: center; 
+}
+
+.digiteAqui{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 6%;
+    gap: 20px;
+}
+.procurar{
+display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 400px;
+   height: 30px;
+   border-radius: 10px;
+   
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+}
+.h1{
+    display: flex;
+    height: 30vh;
+    width: auto;
+    left: 40px;
+    right: 20px;
+}
+.button{
+    display: flex;
+    width: auto;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    text-align: 20px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
